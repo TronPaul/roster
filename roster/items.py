@@ -11,3 +11,7 @@ class RosterItem(Item):
     name = Field()
     players = Field()
     ready = Field()
+
+class LogItem(Item):
+    url = Field()
+    teams = Field()
